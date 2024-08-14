@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public interface Frete {
 
-    BigDecimal calcula(BigDecimal valorPedido);
+    float calcula(float valorPedido);
 
 }
 

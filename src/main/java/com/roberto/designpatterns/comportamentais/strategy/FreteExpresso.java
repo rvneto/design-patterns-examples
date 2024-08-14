@@ -5,8 +5,8 @@ import java.math.BigDecimal;
 public class FreteExpresso implements Frete {
 
     @Override
-    public BigDecimal calcula(BigDecimal valorPedido) {
-        return valorPedido.multiply(new BigDecimal("0.1"));
+    public float calcula(float valorPedido) {
+        return (float) (valorPedido * 0.1);
     }
 
 }

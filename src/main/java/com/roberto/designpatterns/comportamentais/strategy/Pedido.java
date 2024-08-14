@@ -9,10 +9,10 @@ import java.math.BigDecimal;
 @Setter
 public abstract class Pedido {
 
-    private BigDecimal valor;
+    private float valor;
     private Frete tipoFrete;
 
-    public BigDecimal calculaFrete() {
+    public float calculaFrete() {
         return tipoFrete.calcula(valor);
     }
 
