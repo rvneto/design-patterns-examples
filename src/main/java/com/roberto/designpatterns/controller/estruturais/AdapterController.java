@@ -1,4 +1,4 @@
-package com.roberto.designpatterns.controller;
+package com.roberto.designpatterns.controller.estruturais;
 
 import com.roberto.designpatterns.estruturais.adapter.Cobranca;
 import com.roberto.designpatterns.estruturais.adapter.PagFacilAdapter;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/adapter")
+@RequestMapping("/estruturais/adapter")
 public class AdapterController {
 
     @GetMapping("test")

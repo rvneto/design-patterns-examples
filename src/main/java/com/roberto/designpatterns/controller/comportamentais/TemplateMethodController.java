@@ -1,9 +1,5 @@
-package com.roberto.designpatterns.controller;
+package com.roberto.designpatterns.controller.comportamentais;
 
-import com.roberto.designpatterns.comportamentais.strategy.FreteComum;
-import com.roberto.designpatterns.comportamentais.strategy.FreteExpresso;
-import com.roberto.designpatterns.comportamentais.strategy.PedidoEletronicos;
-import com.roberto.designpatterns.comportamentais.strategy.PedidoMoveis;
 import com.roberto.designpatterns.comportamentais.templatemethod.Gateway;
 import com.roberto.designpatterns.comportamentais.templatemethod.PagamentoCredito;
 import com.roberto.designpatterns.comportamentais.templatemethod.PagamentoDebito;
@@ -13,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/template-method")
+@RequestMapping("/comportamentais/template-method")
 public class TemplateMethodController {
 
     @GetMapping("test")

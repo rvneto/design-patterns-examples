@@ -1,16 +1,12 @@
-package com.roberto.designpatterns.controller;
+package com.roberto.designpatterns.controller.comportamentais;
 
 import com.roberto.designpatterns.comportamentais.observer.*;
-import com.roberto.designpatterns.comportamentais.templatemethod.Gateway;
-import com.roberto.designpatterns.comportamentais.templatemethod.PagamentoCredito;
-import com.roberto.designpatterns.comportamentais.templatemethod.PagamentoDebito;
-import com.roberto.designpatterns.comportamentais.templatemethod.PagamentoDinheiro;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/observer")
+@RequestMapping("/comportamentais/observer")
 public class ObserverController {
 
     @GetMapping("test")
